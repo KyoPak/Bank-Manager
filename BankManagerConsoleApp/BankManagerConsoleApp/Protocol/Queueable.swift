@@ -7,6 +7,5 @@
 
 protocol Queueable {
     associatedtype Element
-    
     var list: LinkedList<Element> { get set }
 }

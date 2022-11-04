@@ -10,3 +10,11 @@ struct ClientQueue: ClientQueueable {
 
     var list: LinkedList<Client> = LinkedList()
 }
+
+
+struct BankerQueue: BankerQueueable {
+    typealias Element = BankWorker
+
+    var list: LinkedList<BankWorker> = LinkedList()
+}
+

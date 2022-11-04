@@ -7,11 +7,12 @@
 
 let bankWorker = BankWorker()
 var queue = ClientQueue()
+var queue2 = BankerQueue()
 
-var bank = Bank<ClientQueue>(queue: queue, bankWorker: bankWorker)
+var bank = Bank(queue: queue, queue2: queue2, bankWorker: bankWorker)
 
 // 얘는 왜 되지? 
-var bank2 = Bank(queue: queue, bankWorker: bankWorker)
+//var bank2 = Bank<ClientQueue, BankerQueue>(queue: queue, queue2: queue2, bankWorker: bankWorker)
 
 func startProcess() {
     while true {

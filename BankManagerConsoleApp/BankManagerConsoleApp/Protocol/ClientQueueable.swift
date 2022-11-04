@@ -8,3 +8,5 @@
 import Foundation
 
 protocol ClientQueueable: Queueable where Element == Client { }
+
+protocol BankerQueueable: Queueable where Element == BankWorker { }

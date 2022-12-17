@@ -25,11 +25,11 @@
 
 ## 🤙 Ground Rule
 
-[Ground Rule 바로가기](https://github.com/KyoPak/ios-bank-manager/wiki/1.-Ground-Rule)
+[Ground Rule 바로가기](https://github.com/KyoPak/Bank-Manager/wiki/1.-Ground-Rule)
 
 ## 🖋 Code Convention
 
-[Code Convention 바로가기](https://github.com/KyoPak/ios-bank-manager/wiki/2.-Code-Convention)
+[Code Convention 바로가기](https://github.com/KyoPak/Bank-Manager/wiki/2.-Code-Convention)
 
 ## 🛠 실행 화면
 - 중간에 대기가 없어지는 경우는 초기화 버튼을 클릭한 상황입니다.
@@ -668,7 +668,7 @@ private func resetTimer() {
     
 ## 📝 일일 스크럼
 
-[일일 스크럼 바로가기](https://github.com/KyoPak/ios-bank-manager/wiki/3.-Bank-Manager-Scrum)
+[일일 스크럼 바로가기](https://github.com/KyoPak/Bank-Manager/wiki/3.-Bank-Manager-Scrum)
 
 ## 🔗 참고 링크
 
